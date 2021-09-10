@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+  }
+  
+  a{
+    text-decoration: inherit;
+    color: inherit;
+  }
+  
+  .Quiz{
+    min-height: 98.5vh;
+    border: 3px solid #03030393;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(240, 254, 255);
+    background-color: white;
+  }
+.question{
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 20px;
+  color: rgb(5, 5, 5);
+  background-color:white ;
+  font-family: cursive;
+}
+
+@media screen and (max-width: 800px) {
+  .question{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 15px;
+    color: rgb(5, 5, 5);
+    background-color:white ;
+    font-family: cursive;
+  }
+  
+}

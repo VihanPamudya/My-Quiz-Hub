@@ -1,0 +1,30 @@
+.title {
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(10, 129, 129);
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 28%;
+    
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 800px) {
+    .title{
+      text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(10, 129, 129);
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 1%;
+    }
+  }
+  

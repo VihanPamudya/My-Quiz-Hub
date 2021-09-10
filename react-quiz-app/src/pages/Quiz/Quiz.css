@@ -1,0 +1,108 @@
+.NextStep{
+    background-color: #009e00;
+    color:#fff;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+.NextStep:hover{
+    background-color: green;
+}
+.NextStep[disabled]{
+    display: none;
+}
+
+.finalPage{
+    text-align: center;
+    margin: 50px;
+}
+.finalPage h1{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 50px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color: #008416;
+    text-transform: none;
+    text-shadow: none;
+}
+
+.finalPage p{
+    font-size: 30px;
+    color: black;
+}
+
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4ca8af;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 50px;
+}
+button:hover {background-color: #3e8e8a}
+
+button:active {
+  background-color: #3e8e8e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media screen and (max-width: 800px) {
+    .NextStep{
+        background-color: #009e00;
+        color:#fff;
+        padding: 5px 20px;
+        border: 0;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 110px;
+        font-size: 20px;
+    }  
+    
+    .finalPage h1{
+        text-align: center;
+        margin: 15px 0;
+        font-size: 36px;
+        font-family: Arial,sans-serif;
+        font-weight: bold;
+        color: #008416;
+        text-transform: none;
+        text-shadow: none;
+    }
+    
+    .finalPage p{
+        font-size: 28px;
+        color: black;
+    }
+    
+    button{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4ca8af;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        margin-top: 50px;
+    }
+    
+}

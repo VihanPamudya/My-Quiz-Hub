@@ -1,0 +1,154 @@
+.content{
+    margin-top: 0px;
+   justify-content: space-around;
+    min-height: 500px;
+    width: 1300px;
+    align-items: center;
+    
+
+}
+
+.con{
+  text-align: justify;
+  margin-left: 70px;
+  padding: 50px;
+}
+
+.content p{
+    font-size: 20px;
+    color: rgb(14, 13, 13);
+    margin-right: 800px;
+}
+
+.con img{
+  height: 70%;
+  position: absolute;
+  bottom: 20px;
+  right: 90px;
+}
+
+.content h1{
+    font-size: 40px;
+    margin-right: 800px;
+    padding-top: 20px;
+    color: rgb(8, 8, 8);
+}
+
+.log{
+    margin-right: 180px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255); 
+     color: black; 
+     border: 2px solid #4cafa2;
+}
+
+
+
+.log:hover{
+  background-color: #225c5c;
+  color: rgb(14, 13, 13);
+}
+
+.sign{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+     color: black; 
+     border: 2px solid #4cafa2;
+}
+
+.sign:hover{
+  background-color: #1d5353;
+  color: rgb(14, 13, 13);
+}
+
+@media screen and (max-width: 800px) {
+  .content{
+    margin-top: 0px;
+   justify-content: space-around;
+    min-height: 500px;
+    width: 100%;
+    align-items: center;
+
+}
+
+.con{
+  text-align: justify;
+  margin-left: 1%;
+  padding: 50px;
+  margin-top: 300px;
+  
+}
+.content p{
+  font-size: 15px;
+  color: rgb(14, 13, 13);
+  display:table;
+  margin: auto;
+}
+
+.con img{
+height: 40%;
+position: absolute;
+bottom: 180px;
+right: 8%;
+width: 85%;
+}
+
+.content h1{
+  font-size: 35px;
+  margin-right: 800px;
+  padding-top: 20px;
+  color: rgb(8, 8, 8);
+  
+}
+
+.log{
+  
+  border: none;
+  color: white;
+  padding: 5px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255); 
+   color: black; 
+   border: 2px solid #4cafa2;
+   margin-left: 30%;
+}
+
+.sign{
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+   color: black; 
+   border: 2px solid #4cafa2;
+   margin-left: 30%;
+   margin-top: 10%;
+}
+
+}
